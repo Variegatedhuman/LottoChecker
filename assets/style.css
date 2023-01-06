@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+
+
+
+.welcomeMessage {
+    background-color: grey;
+    margin: 10% 20% 10% 20%;
+    z-index: 3;
+    text-align: center;
+    padding: 5%;
+    border-style: dotted;
+    position: relative;
+}
+
+.welcomeMessage h2 {
+
+}
+
+.welcomeMessage p {
+    font-size: 2rem;
+}
+
+
+
+.hide {
+    display: none;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+}
+
+.main h2 {
+    background-color: silver;
+    border-radius: 30px;
+    margin: 20%;
+}
+
+.container-1 {
+    background-color: rgb(208, 0, 208);
+    width: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    
+    
+}
+
+.container-2 {
+    background-color: orange;
+    width: 50%;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+
+.ticketInput-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10%;
+    height: 10%;
+    
+    
+
+}
+
+.ticketInput-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10%;
+    height: 10%;  
+}
+
+
+
+#number {
+    width: 5%;
+    padding: 3%;
+    border-style: double;
+    background-color: beige;
+    border-width: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+#special{
+    width: 5%;
+    padding: 3%;
+    background-color: rgb(223, 0, 0);
+    border-style: double;
+    border-width: 10px;
+    color: gold;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.saveBtn {
+    padding: 3%;
+    background-color: rgb(223, 0, 0);
+    border-style: double;
+    border-width: 10px;
+    text-align: center;
+}
+
+.ticketDisplay-1 {
+ margin: 10%;
+ padding: 10%;
+ background-color: silver;
+ border: 5% bolder black;
+ border-style: double;
+}
+
+.ticketDisplay-2 {
+    margin: 10%;
+    padding: 10%;
+    background-color: silver;
+    border: 5% bolder black;
+    border-style: double;
+   }
